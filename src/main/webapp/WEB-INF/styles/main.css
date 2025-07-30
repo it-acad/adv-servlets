@@ -1,0 +1,253 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Header Styles */
+.header {
+    background-color: #3498db;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header a {
+    color: white;
+    margin-right: 15px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.header a:hover {
+    background-color: #2980b9;
+    text-decoration: none;
+}
+
+/* Form Styles */
+.form-container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.25);
+}
+
+.form-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    transition: border-color 0.3s;
+}
+
+.form-select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+.btn-success {
+    background-color: #2ecc71;
+}
+
+.btn-success:hover {
+    background-color: #27ae60;
+}
+
+/* Table Styles */
+.table-container {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Priority Colors */
+.priority-low {
+    color: #27ae60;
+}
+
+.priority-medium {
+    color: #f39c12;
+}
+
+.priority-high {
+    color: #e74c3c;
+}
+
+/* Alert Messages */
+.alert {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+/* Task Details */
+.task-details {
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.task-details h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.task-property {
+    margin-bottom: 15px;
+}
+
+.task-property strong {
+    display: inline-block;
+    width: 100px;
+    color: #2c3e50;
+}
+
+/* Welcome Page */
+.welcome-container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.welcome-container h2 {
+    font-size: 2.5rem;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+/* Error Page */
+.error-container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.error-container h2 {
+    font-size: 2.5rem;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Action Buttons */
+.action-buttons a {
+    margin-right: 10px;
+}

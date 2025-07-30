@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Run All Tests",
+      "setup": "",
+      "run": "mvn test -Dtest=com.softserve.itacademy.controller.ToDoListWebAppSuite",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
